@@ -1,0 +1,133 @@
+.budget{
+    background-color: rgba(210, 255, 196, 0.799);
+    position: relative;
+    z-index: 1;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    padding-top: 50px;
+    margin-top: 70px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+
+
+.budget input{
+   font-family: "Roboto", sans-serif;
+   outline: 0;
+   background: #f2f2f2;
+   width: 100%;
+   border: 0;
+   margin: 0 0 15px;
+   padding: 15px;
+   box-sizing: border-box;
+   font-size: 14px;
+}
+.budget .btn{
+   font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.budget .btn a{
+   text-decoration: none;
+   font-size: 20px;
+   color: #f2f2f2;
+}
+  
+.budget button:hover {
+   background: #13a44b;
+   color: #fff;
+   border-radius: 5px;
+   box-shadow: 0 0 5px #13bd40bd,
+               0 0 25px #13bd40bd,
+               0 0 50px #13bd40bd,
+               0 0 100px #13bd40bd;
+}
+  
+
+  .budget input,.budget select {
+    width: 80%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+  }
+  .budget input:hover{
+    border-bottom: 3px solid #13a44b ;
+    box-shadow: 0 0 5px #13a44b,
+    0 0 25px #13a44b,
+    0 0 50px #13a44b,
+    0 0 100px #13a44b;
+ }
+  
+.budget label {
+   padding: 10px 0;
+   font-size: 25px;
+   border-radius: 10px;
+   color: #2d9f00;
+   text-decoration: underline;
+   pointer-events: none;
+   transition: 5s;
+   font-weight: bold;
+   
+}
+  /**/
+ .information{
+   background-color: rgb(245, 237, 222);
+ }
+
+
+ .information {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     align-items: center;
+     width: 100vw;
+ }
+ #table2{
+    margin-top: 80px;
+    width: 100vw;
+    
+ }
+ #table2 td{
+   border: rgb(249, 249, 132) solid 2px;
+   height: 20px;
+   font-size: 25px;
+   background-color: rgb(245, 245, 172);
+   width: 20vw;
+ }
+ #table{
+    width: 100vw;
+    border: rgb(246, 246, 172) solid 2px;
+ 
+   
+ }
+ #table td{
+    width: 20vw;
+    height: 40px;
+   font-size: 30px;
+   background-color:rgb(247, 247, 164) ;
+    
+ }
+ .Line{
+    margin-top: 100px;
+    width: 60vw;
+    background-color: rgb(249, 241, 241);
+ }
+  .Pie{
+   margin-top: 100px;
+   width: 60vw;
+  }
